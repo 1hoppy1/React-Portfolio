@@ -6,6 +6,7 @@ import About from './components/About';
 import Nav from './components/Nav';
 // import Projects from './components/Projects';
 import Gallery from "./components/Gallery";
+import ContactForm from "./components/Contact";
 
 
 function App() {
@@ -28,12 +29,11 @@ function App() {
         setCurrentCategory={setCurrentCategory}
         currentCategory={currentCategory}
       ></Nav>
-      <main>
-        <div>
-          <Gallery></Gallery>
-          <About></About>
-        </div>
-      </main>
+<main>
+  <ContactForm></ContactForm>
+  <Gallery currentCategory={currentCategory}></Gallery>
+  <About></About>
+</main>
     </div>
   );
 }
