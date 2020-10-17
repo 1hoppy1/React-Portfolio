@@ -1,8 +1,8 @@
-import Header from 'react';
+import React from 'react';
 
-function Footer() {
+function Header() {
   return (
-    <section>
+    <section className="my-5">
       <h1 id="header">Who am I?</h1>
     </section>
   );
