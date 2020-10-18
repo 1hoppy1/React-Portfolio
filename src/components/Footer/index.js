@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react";
 
 function Footer() {
   return (
-    <section className="my-5">
-      <h1 id="footer">Who am I?</h1>
-    </section>
+    <div className="footer">
+      <p>Footer Made by Jim &copy; Copyright 2020</p>
+    </div>
   );
 }
 

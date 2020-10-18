@@ -1,45 +1,38 @@
-import React, { useState } from 'react';
-//import './App.css';
-import About from './components/About';
-// import Footer from './components/Footer';
+import React, { useState } from "react";
+import About from "./components/About";
 // import Header from './components/Header';
-import Nav from './components/Nav';
-// import Projects from './components/Projects';
-import Gallery from "./components/Gallery";
+import Nav from "./components/Nav";
+import Projects from "./components/Projects";
 import ContactForm from "./components/Contact";
-
+import Resume from "./components/Resume";
+import Footer from "./components/Footer";
 
 function App() {
-  const [categories] = useState([
-    {
-      name: 'commercial',
-      description: 'Photos of grocery stores, food trucks, and other commercial projects',
-    },
-    { name: 'portraits', description: 'Portraits of people in my life' },
-    { name: 'food', description: 'Delicious delicacies' },
-    { name: 'landscape', description: 'Fields, farmhouses, waterfalls, and the beauty of nature' },
-  ]);
-
-  const [currentCategory, setCurrentCategory] = useState(categories[0]);
+  const [contactSelected, setContactSelected] = useState(false);
 
   return (
     <div>
       <Nav
-        categories={categories}
-        setCurrentCategory={setCurrentCategory}
-        currentCategory={currentCategory}
+        contactSelected={contactSelected}
+        setContactSelected={setContactSelected}
       ></Nav>
-<main>
-  <ContactForm></ContactForm>
-  <Gallery currentCategory={currentCategory}></Gallery>
-  <About></About>
-</main>
+      <main>
+        {window.location.pathname.includes("/contact") ? (
+          <ContactForm></ContactForm>
+        ) : window.location.pathname.includes("/projects") ? (
+          <Projects />
+        ) : window.location.pathname.includes("/resume") ? (
+          <Resume />
+        ) : (
+          <>
+              <About></About>
+          </>
+        )}
+      </main>
+
+      <Footer />
     </div>
   );
 }
 
 export default App;
-
-/* <Header></Header>
-        <Footer></Footer>
-        <Projects></Projects> */
