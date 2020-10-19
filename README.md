@@ -27,4 +27,4 @@ jahopki@hotmai.com
 
 ## Credits
 
-Me, My Wife, and my mom
+Me, My Wife, and my Mom
