@@ -21,7 +21,7 @@ function Nav(props) {
           </li>
           <li className="mx-2">
             <a data-testid="projects" href="/React-Portfolio/projects">
-            Projects
+              Projects
             </a>
           </li>
           <li className="mx-2">
