@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { HashRouter, Route, Switch } from "react-router-dom";
 
 import About from "./components/About";
 // import Header from './components/Header';
@@ -14,7 +13,6 @@ function App() {
 
   return (
     <div>
-      <HashRouter>
       <Nav
         contactSelected={contactSelected}
         setContactSelected={setContactSelected}
@@ -34,7 +32,6 @@ function App() {
       </main>
 
       <Footer />
-      </HashRouter>
     </div>
   );
 }
