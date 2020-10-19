@@ -1,56 +1,30 @@
-# React-Portfolio
+# React Portfolio
 
-  [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
+## Description
 
-
-## Description 
-
-This application generates a readme file
+This application is my personal portfolio. It will be lots better when I finish it.
 
 ## Table of Contents
 
-* [Installation](#installation)
-* [Usage](#usage)
-* [License](#license)
-* [Contributing](#contributing)
-* [Tests](#tests)
-* [Questions](#questions)
-* [Credits](#credits)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Questions](#questions)
+- [Credits](#credits)
 
-## Installation
+## Usage
 
-They will download it
-
-
-## Usage 
-
-Use the command line prompt.
-
-
-## License
-
-For additional info about the license, click on the link (if available).
-
-[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
-
-other
+Potential employer's will view my site and hire me.
 
 ## Contributing
 
-Send me Comments
-
-## Tests
-
-Use a tester
+jahopki@hotmai.com
 
 ## Questions
 
-jimgit
-
 Comments, Questions, Concerns, Complaints? Send me an email.
 
-jim@gmail.com
+jahopki@hotmai.com
 
 ## Credits
 
-my mom
+Me, My Wife, and my Mom
