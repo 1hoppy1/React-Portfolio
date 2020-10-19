@@ -18,22 +18,17 @@ function App() {
         setContactSelected={setContactSelected}
       ></Nav>
       <main>
-        {/* {window.location.pathname.includes("/contact") ? ( */}
-          <About></About>
-          <Projects />
+        {window.location.pathname.includes("/React-Portfolio/contact") ? (
           <ContactForm></ContactForm>
+        ) : window.location.pathname.includes("/React-Portfolio/projects") ? (
+          <Projects />
+        ) : window.location.pathname.includes("/React-Portfolio/resume") ? (
           <Resume />
-
-          {/* <ContactForm></ContactForm> */}
-        {/* ) : window.location.pathname.includes("/projects") ? ( */}
-          {/* <Projects /> */}
-        {/* ) : window.location.pathname.includes("/resume") ? ( */}
-          {/* <Resume /> */}
-        {/* ) : ( */}
-          {/* <> */}
-              {/* <About></About> */}
-          {/* </> */}
-        {/* )} */}
+        ) : (
+          <>
+              <About></About>
+          </>
+        )}
       </main>
 
       <Footer />
